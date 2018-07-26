@@ -9,8 +9,5 @@
         <module name="RuoYi" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="RuoYi" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
