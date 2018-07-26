@@ -54,7 +54,7 @@
 		var editFlag = [[${@permissionService.hasPermi('monitor:job:edit')}]];
 		var removeFlag = [[${@permissionService.hasPermi('monitor:job:remove')}]];
 		var statusFlag = [[${@permissionService.hasPermi('monitor:job:changeStatus')}]];
-		var prefix = ctx + "monitor/job"
+		var prefix = ctx + "monitor/job";
 
 		$(function() {
 		    var options = {
@@ -67,7 +67,7 @@
 		        sortOrder: "desc",
 		        modalName: "任务",
 		        search: false,
-		        showExport: false,
+		        //showExport: false,
 		        columns: [{
 		            checkbox: true
 		        },
